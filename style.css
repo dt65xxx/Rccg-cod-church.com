@@ -9,10 +9,6 @@ html {
 body {
 	font-family: poppins;
 }
-body {
-		min-height: 100vh;
-}
-		
 ul, ul.nav {
 	list-style: none;
 }
@@ -34,11 +30,11 @@ header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	color: #000;
+	color: #fff;
 	padding: 35px 100px 0;
 }
 header h2 span {
-	color: #bf0a30;
+	color: darkblue;
 }
 header ul.nav {
 	display: -webkit-flex;
@@ -113,7 +109,7 @@ section p {
 	text-align: center;
 }
 .banner-area .banner-img {
-	background-image: url(image/WhatsApp\ Image\ 2025-05-05\ at\ 19.32.55_104b3252.JPG);
+	background-image: url(image&video/WhatsApp\ Image\ 2025-05-05\ at\ 19.32.55_104b3252.JPG);
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -140,7 +136,7 @@ section p {
 	text-transform: uppercase;
 }
 .banner-area h1 span {
-	color: #132679;
+	color: darkblue;
 }
 .banner-area h3 {
 	font-size: 25px;
@@ -149,7 +145,7 @@ section p {
 }
 .banner-area a.banner-btn {
 	padding: 15px 35px;
-	background: #132679;
+	background: darkblue;
 	text-transform: uppercase;
 }
 @media (max-width:800px) {
@@ -188,7 +184,7 @@ ul.about-content {
 }
 .about-left {
 	flex-basis: 30%;
-	background-image: url(image/WhatsApp\ Image\ 2025-05-05\ at\ 21.07.10_e1f1f516.JPG);
+	background-image: url(image&video/WhatsApp\ Image\ 2025-05-05\ at\ 21.07.10_e1f1f516.JPG);
 }
 .about-right {
 	flex-basis: 70%;
@@ -209,17 +205,17 @@ ul.about-content {
 	margin-bottom: 5%;
 }
 .section-title span {
-	color: #132679;
+	color: darkblue;
 }
 .about-right h2 {
 	margin-bottom: 3%;
 }
 .about-btn {
 	padding: 15px 35px;
-	background: #132679;
+	background: darkblue;
 	border-radius: 50px;
 	text-transform: uppercase;
-	color: #000;
+	color: #fff;
 }
 @media (max-width: 1000px) {
 	.section-title {
@@ -235,12 +231,12 @@ ul.about-content {
 /*msg area*/
 
 .msg-area {
-	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(image/WhatsApp\ Image\ 2025-05-05\ at\ 19.32.55_104b3252.JPG);
+	background: linear-gradient(rgba(255, 245, 245), rgb(255, 245, 245)), url(image&video/bgimage2.jpeg);
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-position: center center;
 	background-attachment: fixed;
-	color: #fff;
+	color: #000;
 	text-align: center;
 }
 /*service area*/
@@ -305,7 +301,7 @@ ul.contact-content {
 }
 .contact-content li i {
 	font-size: 50px;
-	color: #132679;
+	color: blue;
 	margin-bottom: 25px;
 }
 .contact-content li p {
@@ -334,8 +330,8 @@ footer {
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
-	color: #fff(0, 0%, 0%, 0.986);
-	background-color: #fff;
+	color: #fff;
+	background-color: #000;
 	padding: 60px 0;
 }
 .social-icons {
@@ -344,31 +340,8 @@ footer {
 	align-items: center;
 	font-size: 30px;
 	gap: 20px;
-  }
-  #upload {
-	background: #000;
-	padding: 40px;
-	text-align: center;
-	border-top: 1px solid #ccc;
-  }
-  
-  #upload input[type="file"] {
-	margin: 20px 0;
-  }
-  
-  #upload button {
-	background-color: #333;
-	color:#000;
-	padding: 10px 20px;
-	border: none;
-	cursor: pointer;
-  }
-  
-  #upload-status {
-	margin-top: 10px;
-	color: green;
-  }
-  #contact {
+}
+  contact {
 	padding: 30px;
 	background-color: #000;
 	max-width: 600px;
@@ -376,95 +349,102 @@ footer {
 	border-radius: 8px;
   }
   
-  form input, form textarea {
+  footer .social-media {
+    margin-bottom: 10px;
+  }
+  
+  footer .social-media a {
+    color: darkblue;
+    margin: 0 10px;
+    font-size: 18px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  footer .social-media a:hover {
+    color: #ccc;
+  }
+  
+  
+  .form-container {
+	background: #fff;
+	padding: 20px;
+	border: 2px solid #ccc;
+	border-radius: 8px;
+	width: 350px;
+  }
+  
+  h1 {
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 15px;
+	color: white;
+  }
+  
+  label {
+	display: block;
+	margin: 10px 0 5px;
+	font-weight: bold;
+  }
+  
+  input, textarea {
+	width: 100%;
+	padding: 8px;
+	margin-bottom: 10px;
+	border: 1px solid white;
+	border-radius: 4px;
+  }
+  
+  button {
 	width: 100%;
 	padding: 10px;
-	margin-top: 5px;
-	font-size: 16px;
-	border: 1px solid #000;
-	border-radius: 5px;
-  }
-  
-  form button {
-	background-color: #000;
-	color: #000;
-	padding: 10px 20px;
+	background: white;
+	color: #fff;
 	border: none;
-	margin-top: 10px;
-	cursor: pointer;
+	border-radius: 4px;
   }
   
-  form button:hover {
-	background-color: #000;
+  .video-grid {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(4, 1fr);
+	gap: 5px;
+	height: 100vh;
+	width: 100vw;
+	padding: 5px;
   }
-  .social-media-box {
-	width: 320px;
-	background-color: #007bff;
-	padding: 20px;
-	border-radius: 10px;
-	color: #000;
-	font-family: Arial, sans-serif;
-  }
-
-  .social-media-box h2 {
-	text-align: center;
-	margin-bottom: 20px;
-  }
-
-  .social-icons {
+  
+  .video-segment {
+	background-color: #ddd;
+	border: 2px solid white;
 	display: flex;
-	justify-content: space-around;
-	font-size: 30px;
-	margin-bottom: 20px;
-  }
-
-  .social-icons a {
-	color: #000;
-	text-decoration: none;
-	transition: transform 0.2s;
-  }
-
-  .social-icons a:hover {
-	transform: scale(1.2);
-  }
-
-  .video-upload {
-	text-align: center;
-	margin-top: 20px;
-  }
-
-  .video-upload input[type="file"] {
-	margin-top: 10px;
-  }
-
-  video {
-	margin-top: 15px;
-	width: 100%;
-	border-radius: 10px;
-  }
-  .video-section {
-	background-color: #000;
-	padding: 20px;
-	margin-top: 40px;
-	border-radius: 10px;
-	box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  }
-  
-  .video-section h2 {
-	text-align: center;
-	margin-bottom: 20px;
-	color: #007bff;
-  }
-  
-  .video-gallery {
-	display: flex;
-	flex-wrap: wrap;
-	gap: 20px;
 	justify-content: center;
+	align-items: center;
+	overflow: hidden;
   }
   
-  .video-item {
-	text-align: center;
+  .video-segment video {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
   }
-
- 
+  
+  .scan-me-section {
+	text-align: center;
+	margin-top: 10px;
+	background: #f4f1ea;
+	padding: 15px;
+	border-top: 2px solid #b6a996;
+  }
+  
+  .scan-me-section img {
+	width: 120px;
+	height: 120px;
+  }
+  
+  .scan-me-section p {
+	font-size: 18px;
+	color: #4b3f2f;
+	margin-top: 8px;
+	font-weight: bold;
+  }
